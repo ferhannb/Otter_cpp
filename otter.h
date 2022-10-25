@@ -18,10 +18,10 @@ public:
 
 private:
 
-    VectorXf nu = {0.0,0.0,0.0,0.0,0.0,0.0};
-    VectorXf current_eta = {0.0,0.0,0.0,0.0,0.0,0.0};
-    Vector2f u_actual = {0,0};
-    Vector2f u_control = {0,0};
+    VectorXf nu  {{0.0,0.0,0.0,0.0,0.0,0.0}};
+    VectorXf current_eta  {{0.0,0.0,0.0,0.0,0.0,0.0}};
+    Vector2f u_actual  {{0,0}};
+    Vector2f u_control  {{0,0}};
     int speed;
     std::string controlDescription;
     MatrixXf C;

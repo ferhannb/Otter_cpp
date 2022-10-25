@@ -27,7 +27,7 @@ int main()
     VectorXf T = attitudeEuler(eta,nu,sampleTime);
     cout<<"-----"<<endl;
     cout<<M.block<2,2>(0,0)<<endl;
-    cout<<5*m2c(Ma,nu)<<endl;
+ 
 
 
     return 0;

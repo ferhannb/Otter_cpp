@@ -17,7 +17,6 @@ public:
     void initialize_otter();
 
 private:
-
     VectorXf nu  {{0.0,0.0,0.0,0.0,0.0,0.0}};
     VectorXf current_eta  {{0.0,0.0,0.0,0.0,0.0,0.0}};
     Vector2f u_actual  {{0,0}};
